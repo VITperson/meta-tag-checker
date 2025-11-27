@@ -1,0 +1,18 @@
+# Configuration file for meta checker script
+# Copy this file to config.py and edit the values below
+
+# Base URL of the website to check (without trailing slash)
+BASE_URL = "https://www.example.com"
+
+# Input CSV file containing URL paths (one path per line)
+# Paths should start with / (e.g., /en/about-us)
+INPUT_FILE = "pages.csv"
+
+# Output CSV file where results will be saved
+OUTPUT_FILE = "meta_check_results.csv"
+
+# Delay in seconds between requests (to be polite to the server)
+DELAY_SECONDS = 0.5
+
+# Request timeout in seconds
+REQUEST_TIMEOUT = 10
