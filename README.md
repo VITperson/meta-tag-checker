@@ -19,7 +19,7 @@ A Python script to extract meta titles and descriptions from multiple web pages.
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/VITperson/meta-tag-checker.git
 cd meta-tag-checker
 ```
 
@@ -61,9 +61,9 @@ python3 check_meta.py
 
 Edit `config.py` to customize:
 
-- `BASE_URL`: Base domain to prepend to paths (without trailing slash)
-- `INPUT_FILE`: CSV file containing URL paths to check
-- `OUTPUT_FILE`: Where to save the results
+- `BASE_URL`: Base domain to prepend to paths (without trailing slash) E.g. "https://www.example.com"
+- `INPUT_FILE`: CSV file containing URL paths to check E.g. "pages.csv"
+- `OUTPUT_FILE`: Where to save the results E.g. "meta_check_results.csv"
 - `DELAY_SECONDS`: Delay between requests (default: 0.5)
 - `REQUEST_TIMEOUT`: Timeout for each request in seconds (default: 10)
 
